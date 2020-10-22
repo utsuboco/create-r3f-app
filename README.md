@@ -19,4 +19,4 @@ yarn create r3f-app <gatsby|next|cra|native> my-app <sass|styled>
 
 ## Documentation
 
-[documentation is available here](https://ueno-llc.github.io/create-r3f-app).
+[documentation is available here](https://renaudrohlinger.github.io/create-r3f-app).
