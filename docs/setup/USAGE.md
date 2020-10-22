@@ -7,7 +7,7 @@ Create R3F App supports 1 stack:
 NextJS with full server capabilities and static rendering. It uses [r3f-next-starter](https://github.com/RenaudROHLINGER/r3f-next-starter) as the base config.
 
 ```bash
-yarn create r3f-app next example-www <styled|sass>
+yarn create r3f-app next example-www <sass|styled>
 ```
 
 !> The `project-name` will be generated using the path you defined.
