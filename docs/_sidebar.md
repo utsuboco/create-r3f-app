@@ -1,0 +1,5 @@
+- Getting started
+  - [Installation](/setup/INSTALLATION)
+  - [Usage](/setup/USAGE)
+- Guide
+  - [Next](/guide/NEXT)

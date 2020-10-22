@@ -1,0 +1,28 @@
+{
+  "name": "create-r3f-app",
+  "version": "0.0.1",
+  "description": "The easiest and fastest way to create new 3D web projects with react and threejs.",
+  "contributors": [
+    "Renaud ROHLINGER <hello@renaudrohlinger.com>"
+  ],
+  "main": "index.js",
+  "bin": {
+    "create-r3f-app": "./bin/create-r3f-app"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "ansi-escapes": "^4.3.1",
+    "bluebird": "^3.7.2",
+    "chalk": "^4.1.0",
+    "commander": "^6.1.0",
+    "create-react-app": "3.4.1",
+    "execa": "^4.0.3",
+    "fs-extra": "^9.0.1",
+    "gatsby-cli": "2.11.5",
+    "hosted-git-info": "^3.0.7",
+    "ora": "^5.1.0"
+  }
+}
