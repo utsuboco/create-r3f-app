@@ -17,6 +17,7 @@
     "ansi-escapes": "^4.3.1",
     "bluebird": "^3.7.2",
     "chalk": "^4.1.0",
+    "command-exists": "^1.2.9",
     "commander": "^6.1.0",
     "create-react-app": "3.4.1",
     "execa": "^4.0.3",
