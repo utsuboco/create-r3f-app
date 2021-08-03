@@ -15,7 +15,7 @@ program
   .version(pkg.version)
   .arguments('<app-type> <project-directory> [app-style] ')
   .option('-ts, --typescript', 'create r3f app with TypeScript')
-  .usage(`${chalk.yellow('<app-type>')} ${chalk.green('<project-directory>')} ${chalk.blue('[app-style]')} `)
+  .usage(`${chalk.yellow('<app-type>')} ${chalk.green('<project-directory>')} ${chalk.magenta('[app-style]')} `)
   .action(function projectNameAction(type, name, style) {
     appType = type;
     projectName = name;
