@@ -9,16 +9,13 @@ Usage (choose your stack, your app name and style library):
 
 
 ```bash
-yarn create r3f-app <next> my-app <tailwind?> -ts?
+yarn create r3f-app <next> my-app <tailwind|styled>? -ts?
 ```
 
 or
 
 ```bash
-npx create-r3f-app <next> my-app <tailwind?> -ts?
+npx create-r3f-app <next> my-app <tailwind|styled>? -ts?
 ```
 
 - Default style is tailwind
-
-### TODO
-- Support styled component?
