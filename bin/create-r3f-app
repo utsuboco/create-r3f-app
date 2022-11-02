@@ -15,6 +15,7 @@ program
   .version(pkg.version)
   .arguments('<app-type> <project-directory> [app-style] ')
   .option('-ts, --typescript', 'create r3f app with TypeScript')
+  .option('-b, --branch <value>', 'choose a branch to create the app from (useful for the contributors)')
   .usage(`${chalk.yellow('<app-type>')} ${chalk.green('<project-directory>')} ${chalk.magenta('[app-style]')} `)
   .action(function projectNameAction(type, name, style) {
     appType = type;
@@ -27,10 +28,12 @@ program
 
 const options = program.opts();
 const projectOption = options.typescript ? 'typescript' : 'default';
+const projectBranch = program.branch ? program.branch : 'main';
 
 createR3fApp({
   appType,
   projectName,
   projectOption,
+  projectBranch,
   appStyle,
 });
