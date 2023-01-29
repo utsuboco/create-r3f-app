@@ -1,6 +1,6 @@
 {
   "name": "create-r3f-app",
-  "version": "1.5.8",
+  "version": "1.5.9",
   "description": "The easiest and fastest way to create new 3D web projects with react and threejs.",
   "contributors": [
     "Renaud ROHLINGER <hello@renaudrohlinger.com>"
